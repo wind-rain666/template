@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- 通过cdn的方式引入vue -->
+    <script src="https://cdn.lantsang.cn/vue/2.6.11/vue.min.js"></script>
+
+    <!-- 通过cdn的方式引入vuex -->
+    <script src="https://cdn.lantsang.cn/vuex/3.3.0/vuex.min.js"></script>
+
+    <!-- 通过cdn的方式引入vue-router -->
+    <script src="https://cdn.lantsang.cn/vue-router/3.1.6/vue-router.min.js"></script>
+
+    <!-- 通过cdn的方式引入axios -->
+    <script src="https://cdn.lantsang.cn/axios/0.19.2/axios.min.js"></script>
+
+    <!-- 通过cdn的方式引入uuid -->
+    <script src="https://cdn.lantsang.cn/uuid/8.3.0/uuid.min.js"></script>
+
+    <!-- 通过cdn的方式引入Element ui样式 -->
+    <link href="https://cdn.lantsang.cn/element-ui/2.13.1/theme-chalk/index.css" rel="stylesheet" />
+    <!-- 通过cdn的方式引入Element ui组件库 -->
+    <script src="https://cdn.lantsang.cn/element-ui/2.13.1/index.js"></script>
+
+    <!-- 通过cdn的方式引入moment -->
+    <script src="https://cdn.lantsang.cn/moment/2.27.0/moment.min.js"></script>
+    <script src="https://cdn.lantsang.cn/moment/2.27.0/moment-with-locales.min.js"></script>
+    <script src="https://cdn.lantsang.cn/moment/2.27.0/locale/zh-cn.min.js"></script>
+
+    <!-- 通过cdn的方式引入NProgress样式 -->
+    <link href="https://cdn.lantsang.cn/nprogress/0.2.0/nprogress.min.css" rel="stylesheet" />
+    <!-- 通过cdn的方式引入NProgress组件库 -->
+    <script src="https://cdn.lantsang.cn/nprogress/0.2.0/nprogress.min.js"></script>
+
+    <!-- 通过cdn的方式引入screenfull全屏插件 -->
+    <script src="https://cdn.lantsang.cn/screenfull.js/5.0.0/screenfull.min.js"></script>
+  </head>
+
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
